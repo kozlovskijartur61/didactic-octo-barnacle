@@ -1,0 +1,15 @@
+struct PromisesCombineView: View {
+    
+    @StateObject private var vm = FuturesViewModel()
+    
+    var body: some View {
+        Text(vm.title)
+    }
+}
+
+struct PromisesCombineView_Previews: PreviewProvider {
+    static var previews: some View {
+        PromisesCombineView()
+    }
+}
+
